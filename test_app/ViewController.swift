@@ -11,7 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        printer()
+    }
+    
+    func printer() {
+        print("printer")
     }
 
 
