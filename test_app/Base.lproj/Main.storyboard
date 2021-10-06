@@ -23,12 +23,22 @@
                                     <constraint firstAttribute="height" constant="128" id="dmu-NW-KAJ"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1HG-x3-z1Q">
+                                <rect key="frame" x="87" y="296" width="240" height="128"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="x1c-3P-1IF"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MfV-7j-y2c" secondAttribute="trailing" constant="87" id="9Eu-r3-biE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1HG-x3-z1Q" secondAttribute="trailing" constant="87" id="Bdt-9i-Rfs"/>
                             <constraint firstItem="MfV-7j-y2c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="H2Y-Vi-gq1"/>
+                            <constraint firstItem="1HG-x3-z1Q" firstAttribute="top" secondItem="MfV-7j-y2c" secondAttribute="bottom" constant="64" id="Oz9-xj-o4M"/>
+                            <constraint firstItem="1HG-x3-z1Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="lRA-hl-wtd"/>
                             <constraint firstItem="MfV-7j-y2c" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="sQj-oe-4Dz"/>
                         </constraints>
                     </view>
@@ -41,6 +51,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
